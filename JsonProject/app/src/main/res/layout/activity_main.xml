@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4EF1D8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="50dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+
+        android:fillViewport="true"
+        android:padding="30dp"
+
+        android:scrollbars="vertical">
+
+        <EditText
+            android:id="@+id/readingView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_centerHorizontal="true"
+            android:background="@color/black"
+            android:gravity="left"
+            android:padding="20dp"
+            android:text="raaaj"
+            android:textColor="@color/teal_200"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

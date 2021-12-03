@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RoomDatabase</string>
+    <string name="saved_txt">Saved</string>
+    <string name="update_task_title">Update Task</string>
+    <string name="task_hint">task?</string>
+    <string name="Are_you_sure">Are you sure?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Updated">Updated</string>
+    <string name="Completed_tv">Completed</string>
+    <string name="Not_Completed_tv">Not Completed</string>
+    <string name="Deleted">Deleted</string>
+    <string name="Task_Required">Task required</string>
+    <string name="Desc_Required">Desc required</string>
+    <string name="Finish_by_required">Finish by required</string>
+    <string name="add_a_task_tv">Add a Task</string>
+    <string name="task_et">task?</string>
+    <string name="description_et">description...</string>
+    <string name="finish_by_et">finish by?</string>
+    <string name="save_btn">Save</string>
+    <string name="mark_as_finished_cb">Mark as finished</string>
+    <string name="update_btn">Update</string>
+    <string name="back_btn">Back</string>
+    <string name="delete_btn">Delete</string>
+
+
+</resources>

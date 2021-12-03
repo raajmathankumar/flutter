@@ -1,0 +1,53 @@
+{
+  "id": "0001",
+  "type": "dounut",
+  "name": "Cake",
+  "ppu": 0.55,
+  "stuffinside": {
+    "batter": [
+      {
+        "id":"1001",
+        "type":"Regular"
+      },
+      {
+        "id":"1002",
+        "type":"Chocolate"
+      },
+      {
+        "id":"1003",
+        "type":"Blueberry"
+      },
+      {
+        "id":"1004",
+        "type":"Devil'sFood"
+      },
+      {
+        "id":"1003",
+        "type":"Avacado"
+      }
+    ]
+  },
+  "topping": [
+    {
+      "id":"1001",
+      "type":"Regular"
+    },
+    {
+      "id":"1002",
+      "type":"Chocolate"
+    },
+    {
+      "id":"1003",
+      "type":"Blueberry"
+    },
+    {
+      "id":"1004",
+      "type":"Devil'sFood"
+    },
+    {
+      "id":"1003",
+      "type":"Avacado"
+    }
+
+  ]
+}

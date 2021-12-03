@@ -1,0 +1,7 @@
+{"temperature":"+28 °C",
+  "wind":"6 km/h",
+  "description":"Partly cloudy",
+  "forecast":
+  [{"day":"1", "temperature":"+31 °C", "wind":"9 km/h"},
+    {"day":"2","temperature":"35 °C","wind":"7 km/h"},
+    {"day":"3","temperature":"+26 °C","wind":"17 km/h"}]}

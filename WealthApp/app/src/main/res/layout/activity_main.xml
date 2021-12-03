@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etLocation"
+        android:textColor="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:text="Place" />
+
+    <EditText
+        android:id="@+id/etLocation"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btTemperature"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#04AAED"
+        android:hint="Location"
+
+        android:textColor="@color/teal_200" />
+
+    <Button
+        android:id="@+id/btTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#04AAED"
+        android:text="Get Temperature" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btTemperature"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvwind"
+            android:text="Wind :"
+            android:textColor="@color/teal_200"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvtemp"
+            android:text="Temperature :"
+            android:textColor="@color/teal_200"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvweather"
+            android:text="Weather :"
+            android:textColor="@color/teal_200"/>
+<!--
+
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="+24 Ac" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light drizzle" />
+
+        <TextView
+            android:id="@+id/tvWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="37 km/h" />
+-->
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
